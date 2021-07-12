@@ -60,7 +60,7 @@ spec:
 
   steps:
     - name: discovery
-      image: icr.io/continuous-delivery/cra-discovery:release.2058
+      image: davidlopez0912/discovery-maven:v1
       env:
         - name: API_KEY
           valueFrom:
